@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Nouveau jeu</title>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <!--<meta http-equiv="refresh" content="60">Pour rafraichir la page durant le test-->
+    </head>
+    <body>
+        <div id="jeu">
+            <form>
+                <input type="checkbox" name="ordre" value="1" id="ordre"> Aléatoire
+                <input type="checkbox" name="minuscule" value="1" id="minuscule"> Minuscule                
+                <input type="checkbox" name="type" value="1" id="type" disabled> Lettres accentuées*                
+                <input type="range" name="vitesse" min="1" max="15" id="vitesse" value="1">
+                <input type="button" name="bouton" value="Démarrer" id="bouton">
+            </form>
+            <button id="propos">à propos</button>
+            <div id="libele">Vitesse : <span id="graduation"></span></div>
+        <canvas id="canvas" width="1024" height="600"></canvas>
+        </div>
+        <div id="bulle" style="display: none;">
+            <h4>Application éducative de saisie de lettres</h4>
+            <h4>Consigne :</h4>
+            Le cube à lettre se déplace vers le tableau. L'utilisateur doit saisir au clavier la lettre affichée avant que celle-ci ne touche le tableau.
+            <p><a href="mailto:mekkaddish@gmail.com">Contacter le développeur</a> : mekkaddish@gmail.com</p>
+            <hr>
+            <h4>Educational Letter Entry Application</h4>
+            <h4>Instructions :</h4>
+            The letter cube moves to the table. The user must enter the letter displayed on the keypad before it appears on the board.
+            <p><a href="mailto:mekkaddish@gmail.com">Contact the developer</a> : mekkaddish@gmail.com</p>
+        </div>
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

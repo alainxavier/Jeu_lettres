@@ -1,0 +1,93 @@
+#jeu {
+    border: solid 10px rgb(224, 245, 243);
+    width: 1024px;
+    background-color: rgb(253, 247, 196);
+}
+form{
+    position: relative;
+    left: 50px;
+    top: 10px;
+    width: 620px;
+    height: 40px;
+    font-size: 18px;
+    color: darkblue;
+    background-image: linear-gradient(rgb(205, 207, 205), rgb(187, 192, 187));
+    padding: 12px 20px;
+    border: solid 1px #fdd700;
+    border-radius: 10px;
+}
+
+#bulle{
+    position: absolute;
+    left: 70px;
+    top: 118px;
+    width: 620px;
+    font-size: 18px;
+    color: darkblue;
+    background-image: linear-gradient(rgba(205, 207, 205, 0.8), rgba(187, 192, 187, 0.8));
+    padding: 12px 20px;
+    border: solid 1px #fdd700;
+    border-radius: 10px;
+}
+
+button{
+    position: relative;
+    left: 330px;
+    top: 8px;
+    width: 80px;
+    height: 25px;
+    color: darkblue;
+    background-image: linear-gradient(rgb(205, 207, 205), rgb(187, 192, 187));
+    border: solid 1px #fdd700;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#minuscule, #type, #vitesse {
+    margin-left: 30px;
+}
+
+#bouton {
+    position: relative;
+    top: -30px;
+    left: 700px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(rgb(61, 255, 103), rgb(54, 214, 88));
+    border-radius: 10px;
+    padding: 8px;
+    width: 150px;
+    border: none;
+}
+#libele {
+    position: absolute;
+    top: 65px;
+    left: 560px;
+    font-size: 18px;
+    color: darkblue;
+}
+#graduation {
+    position: relative;
+    top: -20px;
+    left: 65px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 137, 1);
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    display: block;
+    background-color: rgb(221, 223, 221);
+    box-shadow: 0px 1px 1px 1px inset rgb(133, 134, 133);
+}
+
+#bouton:hover {
+    background-image: linear-gradient(rgb(30, 255, 0), rgb(56, 192, 38));
+}
+
+table {
+    position: absolute;
+    left: 1054px;
+    top: 50px;
+}
